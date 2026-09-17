@@ -1,0 +1,29 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Assistente de Inteligência Artificial com Google Gemini e Memória de Contexto",
+          "examplePhrases": [
+            "Alexa, abra a minha ia",
+            "Alexa, peça à minha ia para me explicar relatividade",
+            "Alexa, pergunte à minha ia o que é um fóton"
+          ],
+          "name": "Minha IA Gemini",
+          "description": "Skill da Alexa conectada ao Google Gemini 1.5 Flash com suporte a memória de contexto para estudos e casa inteligente."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Skill para uso pessoal conectada à API do Gemini.",
+      "category": "KNOWLEDGE_AND_TRIVIA"
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

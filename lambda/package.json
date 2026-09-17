@@ -1,0 +1,11 @@
+{
+  "name": "alexa-gemini-skill-backend",
+  "version": "1.0.0",
+  "description": "Backend AWS Lambda para a Skill Alexa Gemini com Memória de Contexto",
+  "main": "index.js",
+  "dependencies": {
+    "ask-sdk-core": "^2.7.0",
+    "ask-sdk-model": "^1.19.0",
+    "@google/generative-ai": "^0.21.0"
+  }
+}
