@@ -32,8 +32,9 @@ const AskAIIntentHandler = {
         let history = sessionAttributes.history || [];
 
         try {
+            // Usa o modelo ativo e rápido Gemini 2.5 Flash (Gratuito)
             const model = genAI.getGenerativeModel({ 
-                model: "gemini-1.5-flash",
+                model: "gemini-2.5-flash",
                 systemInstruction: "Você é um assistente pessoal inteligente de casa e estudos. Responda de forma direta, amigável, clara e concisa para ser lido em voz alta pela Alexa."
             });
 
