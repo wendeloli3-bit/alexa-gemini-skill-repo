@@ -28,11 +28,12 @@
             }
           ],
           "samples": [
-            "{query}",
             "me explique {query}",
             "pergunte {query}",
             "o que e {query}",
-            "pesquise {query}"
+            "pesquise {query}",
+            "sobre {query}",
+            "resuma {query}"
           ]
         }
       ],
